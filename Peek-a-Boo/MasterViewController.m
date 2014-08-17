@@ -11,7 +11,7 @@
 #import "DetailViewController.h"
 
 @interface MasterViewController ()
-- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
+
 @end
 
 @implementation MasterViewController

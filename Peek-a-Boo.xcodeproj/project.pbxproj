@@ -18,7 +18,6 @@
 		F9B0C52B199E794100E9B00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B0C52A199E794100E9B00D /* AppDelegate.m */; };
 		F9B0C52E199E794100E9B00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B0C52C199E794100E9B00D /* Main.storyboard */; };
 		F9B0C531199E794100E9B00D /* Peek_a_Boo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9B0C52F199E794100E9B00D /* Peek_a_Boo.xcdatamodeld */; };
-		F9B0C534199E794100E9B00D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B0C533199E794100E9B00D /* MasterViewController.m */; };
 		F9B0C537199E794200E9B00D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B0C536199E794200E9B00D /* DetailViewController.m */; };
 		F9B0C539199E794200E9B00D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B0C538199E794200E9B00D /* Images.xcassets */; };
 		F9B0C540199E794200E9B00D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0C53F199E794200E9B00D /* XCTest.framework */; };
@@ -57,8 +56,6 @@
 		F9B0C52A199E794100E9B00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F9B0C52D199E794100E9B00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9B0C530199E794100E9B00D /* Peek_a_Boo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Peek_a_Boo.xcdatamodel; sourceTree = "<group>"; };
-		F9B0C532199E794100E9B00D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		F9B0C533199E794100E9B00D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		F9B0C535199E794100E9B00D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F9B0C536199E794200E9B00D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F9B0C538199E794200E9B00D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -132,8 +129,6 @@
 				F9B0C529199E794100E9B00D /* AppDelegate.h */,
 				F9B0C52A199E794100E9B00D /* AppDelegate.m */,
 				F9B0C52C199E794100E9B00D /* Main.storyboard */,
-				F9B0C532199E794100E9B00D /* MasterViewController.h */,
-				F9B0C533199E794100E9B00D /* MasterViewController.m */,
 				F9B0C535199E794100E9B00D /* DetailViewController.h */,
 				F9B0C536199E794200E9B00D /* DetailViewController.m */,
 				F9B0C538199E794200E9B00D /* Images.xcassets */,
@@ -275,7 +270,6 @@
 			files = (
 				F90ED24719A13A7D0095EE36 /* UsersViewController.m in Sources */,
 				F9B0C537199E794200E9B00D /* DetailViewController.m in Sources */,
-				F9B0C534199E794100E9B00D /* MasterViewController.m in Sources */,
 				F90ED24419A136D00095EE36 /* User.m in Sources */,
 				F9B0C52B199E794100E9B00D /* AppDelegate.m in Sources */,
 				F9B0C527199E794100E9B00D /* main.m in Sources */,

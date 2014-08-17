@@ -7,7 +7,7 @@
 //
 
 #import "UsersViewController.h"
-#import "DetailViewController.h"
+
 
 @interface UsersViewController ()
 
