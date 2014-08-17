@@ -132,10 +132,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rwr-yh-yAz">
+                                <rect key="frame" x="70" y="368" width="180" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
+                    <connections>
+                        <outlet property="addressTextField" destination="LOM-5l-LL6" id="5Lu-5h-c07"/>
+                        <outlet property="emailTextField" destination="eWp-k7-Ksq" id="Hj6-mE-GuE"/>
+                        <outlet property="nameTextField" destination="NmF-ag-18H" id="8nn-w3-UNO"/>
+                        <outlet property="photoImageView" destination="Rwr-yh-yAz" id="xmN-Fu-7jb"/>
+                        <outlet property="telephoneTextField" destination="qWT-fl-hhc" id="GYY-R8-wPu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
             </objects>

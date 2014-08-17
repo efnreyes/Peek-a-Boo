@@ -10,6 +10,12 @@
 
 @interface DetailViewController ()
 - (void)configureView;
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *addressTextField;
+@property (weak, nonatomic) IBOutlet UITextField *emailTextField;
+@property (weak, nonatomic) IBOutlet UITextField *telephoneTextField;
+@property (weak, nonatomic) IBOutlet UIImageView *photoImageView;
+
 @end
 
 @implementation DetailViewController
