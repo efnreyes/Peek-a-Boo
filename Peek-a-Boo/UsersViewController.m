@@ -8,11 +8,11 @@
 
 #import "UsersViewController.h"
 #import "DetailViewController.h"
+#import "PhotoViewController.h"
 #import "User.h"
 
 @interface UsersViewController ()
-
-@property NSMutableDictionary *userDictionary;
+@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
@@ -38,7 +38,6 @@
 }
 
 -(IBAction)unwindFromDetailViewController:(UIStoryboardSegue *)segue {
-    NSLog(@"Unwinded");
 
 }
 
@@ -56,7 +55,7 @@
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"Photo selected");
+    [self performSegueWithIdentifier:@"showUserImageSegue" sender:self];
 }
 
 #pragma mark - Navigation
@@ -64,9 +63,11 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"newUserSegue"]) {
-        NSLog(@"About to create new user");
         DetailViewController *dvc = segue.destinationViewController;
         dvc.managedObjectContext = self.managedObjectContext;
+    } else {
+        PhotoViewController *pvc = segue.destinationViewController;
+        pvc.user = [self.fetchedResultsController objectAtIndexPath:[self.collectionView indexPathsForSelectedItems].firstObject];
     }
 }
 

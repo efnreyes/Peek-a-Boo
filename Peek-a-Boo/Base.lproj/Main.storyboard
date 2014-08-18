@@ -40,10 +40,42 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="TEN-k8-dRu" id="6dH-Bb-i0C"/>
+                        <segue destination="FVt-aE-vON" kind="push" identifier="showUserImageSegue" id="XZs-Wo-9eF"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rMX-rj-UKK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1000" y="224"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="YB0-un-0XH">
+            <objects>
+                <viewController id="FVt-aE-vON" customClass="PhotoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fif-GP-sdk"/>
+                        <viewControllerLayoutGuide type="bottom" id="cTB-yx-QlH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EK9-1k-PAb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BSw-Fs-XvI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Rp-OG-Wrd"/>
+                    <connections>
+                        <outlet property="scrollView" destination="BSw-Fs-XvI" id="HDY-80-XZb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWO-QC-Bnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1540" y="578"/>
         </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="Cn3-H9-jdl">
@@ -151,7 +183,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
                 <exit id="098-Hh-FZg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1528" y="224"/>
+            <point key="canvasLocation" x="1540" y="-119"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zba-Nq-W1H">

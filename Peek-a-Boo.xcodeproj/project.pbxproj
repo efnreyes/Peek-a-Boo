@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F90ED24419A136D00095EE36 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F90ED24319A136D00095EE36 /* User.m */; };
 		F90ED24719A13A7D0095EE36 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90ED24619A13A7D0095EE36 /* UsersViewController.m */; };
+		F98E9E7E19A1BDE500F278CE /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E9E7D19A1BDE500F278CE /* PhotoViewController.m */; };
 		F9B0C519199E794100E9B00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0C518199E794100E9B00D /* Foundation.framework */; };
 		F9B0C51B199E794100E9B00D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0C51A199E794100E9B00D /* CoreGraphics.framework */; };
 		F9B0C51D199E794100E9B00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0C51C199E794100E9B00D /* UIKit.framework */; };
@@ -43,6 +44,8 @@
 		F90ED24319A136D00095EE36 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F90ED24519A13A7D0095EE36 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
 		F90ED24619A13A7D0095EE36 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		F98E9E7C19A1BDE500F278CE /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		F98E9E7D19A1BDE500F278CE /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		F9B0C515199E794100E9B00D /* Peek-a-Boo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peek-a-Boo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B0C518199E794100E9B00D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9B0C51A199E794100E9B00D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +141,8 @@
 				F90ED24319A136D00095EE36 /* User.m */,
 				F90ED24519A13A7D0095EE36 /* UsersViewController.h */,
 				F90ED24619A13A7D0095EE36 /* UsersViewController.m */,
+				F98E9E7C19A1BDE500F278CE /* PhotoViewController.h */,
+				F98E9E7D19A1BDE500F278CE /* PhotoViewController.m */,
 			);
 			path = "Peek-a-Boo";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				F9B0C52B199E794100E9B00D /* AppDelegate.m in Sources */,
 				F9B0C527199E794100E9B00D /* main.m in Sources */,
 				F9B0C531199E794100E9B00D /* Peek_a_Boo.xcdatamodeld in Sources */,
+				F98E9E7E19A1BDE500F278CE /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
