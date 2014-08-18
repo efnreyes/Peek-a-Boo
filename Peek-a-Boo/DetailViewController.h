@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "User.h"
 
 @interface DetailViewController : UIViewController
+
+@property NSManagedObjectContext *managedObjectContext;
 
 @end
