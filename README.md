@@ -25,3 +25,28 @@ As a user, I want to add a user to Peek-a-Boo
     The information should include a photo, a primary telephone number, a primary address, and a primary email address
     You can add an image to your simulator by dragging the image on to your simulator, long-pressing on the photo when it comes up in Safari and then saving it to your photo library
 
+
+Stretches
+=========
+
+
+As a user, I would like to put my contacts into groups (i.e. family, coworkers, friends)
+3 points
+As a user, I would like to see groups in the grid view mode in such a way that it is obvious that it’s a group of users
+2 points
+
+
+As a user, I want to see all of my contacts on one map
+3 points
+
+
+As a user, I want to search for a user based on any criterion
+2 points
+
+
+As a user, I want to send mail to a user based on their email address or call them based on their phone number
+2 points
+
+    This only needs to initiate the action as the simulator will not allow this to happen
+    If it works correctly, the email will not send and the phone call will pop up an alert
+
